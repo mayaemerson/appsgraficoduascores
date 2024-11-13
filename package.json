@@ -1,0 +1,22 @@
+{
+  "name": "grafico-sheet-two-color",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "login": "clasp login",
+    "clone": "clasp clone 1DOe4ZMrX9ppSWyqLhnsz2EfZboIAmuqiNKYNbX58ajaSsVqtegJzoYhE --rootDir apps",
+    "logout": "clasp logout",
+    "pull": "clasp pull",
+    "push": "clasp push",
+    "start": "clasp push --watch"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.85"
+  }
+}

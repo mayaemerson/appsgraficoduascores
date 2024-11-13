@@ -1,0 +1,12 @@
+# Ignora arquivos de configuração do clasp
+.clasp.json
+
+# Ignora a pasta node_modules se você tiver dependências de Node.js
+node_modules/
+
+# Ignora arquivos de log e de sistema
+*.log
+.DS_Store
+
+# Ignora configurações locais do VS Code
+.vscode/
